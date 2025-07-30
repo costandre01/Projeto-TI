@@ -1,0 +1,11 @@
+<?php
+
+//Faz esquecer o login feito
+if(isset($_POST['logout'])) {
+  session_start();
+  session_unset();
+  session_destroy();
+  header("Location: ../index.php");
+  exit();
+}
+?>

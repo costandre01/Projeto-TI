@@ -1,0 +1,181 @@
+/* vinham com o template
+mais abaixo encontra-se código implementado */
+.nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover, .nav-link:focus {
+  text-decoration: none;
+}
+
+.nav-link.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  isolation: isolate;
+  border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+.nav-tabs .nav-link.disabled {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.nav-pills .nav-link {
+  background: none;
+  border: 0;
+  border-radius: 0.25rem;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.nav-fill > .nav-link,
+.nav-fill .nav-item {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav-justified > .nav-link,
+.nav-justified .nav-item {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.tab-content > .tab-pane {
+  display: none;
+}
+
+.tab-content > .active {
+  display: block;
+}
+
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 50%;
+  padding-bottom: 50%;
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 80%;
+}
+
+#btn_fixed {
+  position: fixed;
+  bottom: 10%;
+  right: 2%;
+  z-index: 99;
+}
+
+
+/* Código Implementado */
+.sidebar {
+  background-color: #1E2A38;
+}
+
+.navbar {
+  background-color: #007BFF;
+  color: #ADB5BD !important;
+}
+
+.btn-nav-toggle {
+  padding: 0.6em;
+  /* background-color: !important; */
+  width: 5em;
+  text-align: center;
+  font-size: 0.9em;
+  border-bottom: 2px solid #FF6F61;
+  color: white;
+}
+.btn-nav-toggle:hover {
+  /* background-color: #FF6F61; */
+  color: #1E2A38;
+  cursor: pointer;
+  transition: color 0.3s ease, color 0.3s ease;
+}
+
+h1::first-letter {
+  font-weight: bold;
+  color: #FF6F61;
+
+}
+h1 {
+  letter-spacing: 2px !important;
+}
+h2 {
+  /* font-weight: bold; */
+  color: #1E2A38;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1rem !important;
+}
+
+.btn-primary {
+  background-color: #007BFF;
+  color: white;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 4px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.2em;
+  margin-bottom: 1em;
+}
